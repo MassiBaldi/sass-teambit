@@ -1,0 +1,20 @@
+@mixin btnBase {
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 15px;
+}
+@mixin bottone {
+  border: none;
+  background: $colorBlu;
+  color: white;
+  &:hover {
+    background: #263972;
+  }
+}
+@mixin btnLogo {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}

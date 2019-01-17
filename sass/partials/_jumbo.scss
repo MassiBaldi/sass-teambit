@@ -1,0 +1,51 @@
+.jumbo {
+  width: 100%;
+  height: 520px;
+  padding: 100px 0; 
+
+  .jumboLeft, .jumboRight {
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: $colorText;
+  }
+  .jumboLeft > h2 {
+    font-size: 50px;
+  }
+  .jumboLeft > p {
+    font-size: 25px;
+    padding: 40px 0;
+  }
+  .jumboButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 40px;
+    margin-bottom: 40px;
+    .jumboBtn {
+      @include bottone;
+      @include btnBase;
+    }
+    .btn_logo {
+      @include btnLogo;
+    }
+    span{
+      color: #cfd7ef;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $colorText;
+    &:hover {
+      color: $colorBlu
+    }
+    i {
+      font-size: 11px;
+    }
+  }
+  .jumboRight img {
+    float: right;
+    width: 90%;
+  }
+}

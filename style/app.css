@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  height: 1200px;
+  background: #ffe7d2;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #bdb5af;
+}
+
+.navbar .navLeft {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.navbar .navLeft img {
+  height: 30px;
+  margin: 25px 0;
+}
+
+.navbar .navRight {
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+.navbar .navRight ul {
+  list-style: none;
+}
+
+.navbar .navRight ul li {
+  float: left;
+  margin: 0 20px;
+}
+
+.navbar .navRight ul li a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.navbar .navRight ul li a:hover {
+  color: #30488f;
+}
+
+.navbar .navRight ul li a i {
+  font-size: 15px;
+}
+
+.navbar .navRight ul li .btn {
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 15px;
+  background: white;
+  border: 1px solid #30488f;
+  color: #30488f;
+}
+
+.navbar .navRight ul li .btn:hover {
+  color: white;
+  background: #30488f;
+}
+
+.navbar .navRight ul li .btn .g_logo {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.navbar .navRight ul li:last-child {
+  margin-right: 0px;
+}
+
+.jumbo {
+  width: 100%;
+  height: 520px;
+  padding: 100px 0;
+}
+
+.jumbo .jumboLeft,
+.jumbo .jumboRight {
+  float: left;
+  width: 50%;
+  height: 100%;
+  color: #58402c;
+}
+
+.jumbo .jumboLeft > h2 {
+  font-size: 50px;
+}
+
+.jumbo .jumboLeft > p {
+  font-size: 25px;
+  padding: 40px 0;
+}
+
+.jumbo .jumboButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 370px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.jumbo .jumboButton .jumboBtn {
+  border: none;
+  background: #30488f;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 15px;
+}
+
+.jumbo .jumboButton .jumboBtn:hover {
+  background: #263972;
+}
+
+.jumbo .jumboButton .btn_logo {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.jumbo .jumboButton span {
+  color: #cfd7ef;
+}
+
+.jumbo a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+.jumbo a:hover {
+  color: #30488f;
+}
+
+.jumbo a i {
+  font-size: 11px;
+}
+
+.jumbo .jumboRight img {
+  float: right;
+  width: 90%;
+}
+
